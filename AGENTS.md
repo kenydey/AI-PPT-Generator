@@ -10,7 +10,7 @@ AI PPT Generator — 企业级 AI PPT 全自动生成系统。Two-service monore
 | Service | Port | Start command |
 |---------|------|---------------|
 | Backend (FastAPI) | 8000 | `uv run uvicorn backend.main:app --reload --host 0.0.0.0 --port 8000` (from repo root) |
-| Frontend (Vite)   | 5000 | `npm run dev` (from `frontend/`) |
+| Frontend (Vite)   | 6000 | `npm run dev` (from `frontend/`) |
 
 The Vite dev server proxies `/api`, `/docs`, `/health`, `/openapi.json` to backend port 8000.
 

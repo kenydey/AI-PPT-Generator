@@ -1,0 +1,1 @@
+{"root":["./src/App.tsx","./src/main.tsx","./src/api/client.ts","./src/components/editor/OutlineEditor.tsx","./src/components/media/MediaPicker.tsx","./src/components/preview/SlidePreview.tsx","./src/components/vibe/VibeChat.tsx","./src/pages/Home.tsx","./src/store/pptStore.ts","./src/types/index.ts"],"errors":true,"version":"5.6.3"}

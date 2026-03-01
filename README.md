@@ -33,7 +33,7 @@ uv run uvicorn backend.main:app --reload --host 0.0.0.0 --port 8000
 cd frontend && npm run dev
 ```
 
-- 前端: http://localhost:5000  
+- 前端: http://localhost:6000  
 - API 文档: http://localhost:8000/docs  
 - 健康检查: http://localhost:8000/health  
 
@@ -46,7 +46,7 @@ cd frontend && npm run dev
 
 ```bash
 docker compose up -d
-# 后端 8000，前端 5000
+# 后端 8000，前端 6000
 ```
 
 ## 环境变量（示例）
