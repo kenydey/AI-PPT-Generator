@@ -28,8 +28,12 @@ from backend.api.routes_parse import router as parse_router
 from backend.api.routes_llm import router as llm_router
 from backend.api.routes_generate import router as generate_router
 from backend.api.routes_export import router as export_router
+from backend.api.routes_vibe import router as vibe_router
+from backend.api.routes_media import router as media_router
 
 app.include_router(parse_router)
 app.include_router(llm_router)
 app.include_router(generate_router)
 app.include_router(export_router)
+app.include_router(vibe_router)
+app.include_router(media_router)
